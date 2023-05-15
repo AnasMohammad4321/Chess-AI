@@ -38,7 +38,7 @@ This project contains a basic chess AI that can play against a human player or a
 * `d` to toggle background music
 
 ## Interface: 
-![Main Menu](data/1st.png.png)
+![Main Menu](data/1st.png)
 
 ![Options](data/2nd.png)
 
