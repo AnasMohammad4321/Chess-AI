@@ -31,6 +31,10 @@ During the search, if the algorithm finds a node with a score that exceeds the c
 
 The minimax algorithm with alpha-beta pruning is a powerful and widely used technique for game tree search in two-player games, such as chess, checkers, and Go. It is particularly effective when the search tree is large and deep, making it infeasible to evaluate all possible moves.
 
+## Chess Graph
+![Opening1](https://i.stack.imgur.com/pycDu.jpg)
+![Opening2](https://2.bp.blogspot.com/-cNVCvQNxkkQ/UNZONkCry7I/AAAAAAAAAZs/p21dAAXLXGE/s1600/sicilian.png)
+
 ## Components
 * `main.py` - The main driver file that handles user input, graphics, and game logic.
 * `Mechanics.py` - Contains the GameState class that tracks the current state of the chess game.
