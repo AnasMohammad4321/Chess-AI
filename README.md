@@ -6,6 +6,7 @@
   - [Description](#description)
      - [NegaMax:](#negamax)
      - [MiniMax:](#minimax)
+  - [Chess Graph](#chess-graph)
   - [Components](#components)
   - [Technologies](#technologies)
   - [Setup](#setup)
