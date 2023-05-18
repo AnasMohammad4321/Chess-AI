@@ -4,6 +4,8 @@
 - [Chess AI](#chess-ai)
   - [Table of contents](#table-of-contents)
   - [Description](#description)
+     - [NegaMax Algorithm:](#negaMax Algorithm)
+     - [MiniMax Algorithm:](#miniMax Algorithm)
   - [Components](#components)
   - [Technologies](#technologies)
   - [Setup](#setup)
@@ -20,7 +22,7 @@ During the search, if the algorithm finds a node with a score that exceeds the c
 
 The NegaMax algorithm with alpha-beta pruning works by negating the score values of each node in the game tree, so that the maximizing player becomes the minimizing player and vice versa. This allows the algorithm to use the same alpha-beta pruning technique as in the minimax algorithm but with only one set of values, rather than separate values for each player.
 
-####MiniMax Algorithm
+#### MiniMax Algorithm
 The minimax algorithm with alpha-beta pruning is a well-known search algorithm used in two-player games to determine the optimal move for a player, assuming that the opponent also plays optimally. 
 
 The algorithm works by performing a depth-first search of the game tree, evaluating each position and assigning it a score that represents the expected outcome of the game for the player. The algorithm alternates between maximizing the score for the current player and minimizing the score for the opponent. 
